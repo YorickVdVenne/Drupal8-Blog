@@ -1,0 +1,9 @@
+blogs_filter.content:
+  path: '/api/blogs'
+  defaults:
+    _controller: '\Drupal\blogs_filter\Controller\BlogsFilterController::content'
+    _title: 'Blogs Filter'
+  requirements:
+    _permission: 'access content'
+
+

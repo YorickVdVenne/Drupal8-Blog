@@ -1,0 +1,6 @@
+name: Product Page Module
+description: This is the page where the Products are shown.
+package: Custom
+
+type: module
+core_version_requirement: ^8.8 || ^9

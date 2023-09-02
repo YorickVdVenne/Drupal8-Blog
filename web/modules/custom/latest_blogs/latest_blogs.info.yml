@@ -1,0 +1,6 @@
+name: Latest Blogs Module
+description: Returns the latest blogs on endpoint /api/blogs/latest
+package: Custom
+
+type: module
+core_version_requirement: ^8.8 || ^9

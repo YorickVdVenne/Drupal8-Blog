@@ -1,0 +1,9 @@
+article_filter.content:
+  path: '/api/articles'
+  defaults:
+    _controller: '\Drupal\article_filter\Controller\FilterController::content'
+    _title: 'Article Filter'
+  requirements:
+    _permission: 'access content'
+
+

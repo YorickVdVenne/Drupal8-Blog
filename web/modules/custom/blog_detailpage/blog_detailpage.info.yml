@@ -1,0 +1,6 @@
+name: Blog Detailpage Module
+description: Returns the data of specific blog on endpoint /api/blog/{id}
+package: Custom
+
+type: module
+core_version_requirement: ^8.8 || ^9

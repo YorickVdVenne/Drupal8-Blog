@@ -1,0 +1,9 @@
+latest_blogs.content:
+  path: '/api/blogs/latest'
+  defaults:
+    _controller: '\Drupal\latest_blogs\Controller\LatestBlogsController::content'
+    _title: 'Latest Blogs'
+  requirements:
+    _permission: 'access content'
+
+

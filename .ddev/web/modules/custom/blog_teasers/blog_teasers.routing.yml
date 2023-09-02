@@ -1,0 +1,9 @@
+blog_teasers.content:
+  path: '/api/blogs/teasers'
+  defaults:
+    _controller: '\Drupal\blog_teasers\Controller\BlogTeasersController::content'
+    _title: 'Blog Teasers'
+  requirements:
+    _permission: 'access content'
+
+

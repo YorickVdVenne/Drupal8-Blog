@@ -1,0 +1,9 @@
+product_page.content:
+  path: '/products'
+  defaults:
+    _controller: '\Drupal\product_page\Controller\ProductController::content'
+    _title: 'Product Page'
+  requirements:
+    _permission: 'access content'
+
+

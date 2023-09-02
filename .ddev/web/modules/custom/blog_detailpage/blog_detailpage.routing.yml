@@ -1,0 +1,9 @@
+blog_detailpage.content:
+  path: '/api/blog'
+  defaults:
+    _controller: '\Drupal\blog_detailpage\Controller\BlogDetailpageController::content'
+    _title: 'Blog Detailpage'
+  requirements:
+    _permission: 'access content'
+
+
